@@ -1,4 +1,4 @@
-# Stock Price Prediction using LSTM 📈
+# Stock Price Prediction using LSTM 
 
 A deep learning project that predicts Apple (AAPL) stock closing prices using a stacked LSTM (Long Short-Term Memory) neural network, built with `yfinance`, `Keras`, and `Plotly`.
 
@@ -8,11 +8,11 @@ This project pulls ~13 years of historical AAPL price data, visualizes it as an 
 
 ## Features
 
-- 📥 **Live data ingestion** — fetches historical OHLCV data directly from Yahoo Finance via `yfinance`
-- 📊 **Interactive visualization** — candlestick chart of AAPL price history using `Plotly`
-- 🔍 **Exploratory analysis** — null-value checks and feature correlation analysis against closing price
-- 🧠 **Stacked LSTM model** — two LSTM layers (128 → 64 units) followed by dense layers, trained with Keras
-- 🔮 **Price prediction** — predicts closing price from a custom Open/High/Low/Volume input
+-  **Live data ingestion** — fetches historical OHLCV data directly from Yahoo Finance via `yfinance`
+-  **Interactive visualization** — candlestick chart of AAPL price history using `Plotly`
+-  **Exploratory analysis** — null-value checks and feature correlation analysis against closing price
+-  **Stacked LSTM model** — two LSTM layers (128 → 64 units) followed by dense layers, trained with Keras
+-  **Price prediction** — predicts closing price from a custom Open/High/Low/Volume input
 
 ## Tech Stack
 
